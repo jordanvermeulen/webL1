@@ -1,0 +1,374 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/TRIBAL__.ttf);
+
+}
+
+@font-face {
+    font-family: chur;
+    src: url(fonts/Tribalcase.otf);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+a:hover {
+    color: red;
+    margin-top: 5px;
+}
+
+
+.t:hover {
+    margin-top: -5px;
+    
+}
+
+html {
+    background-color: black;
+
+}
+
+body {
+    color: whitesmoke;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 0.2fr;
+/*    background-color: black;*/
+    color: maroon;
+    grid-gap: 5px;
+    width: 100%;
+
+}
+
+.grid-container4 {
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
+    background-color: maroon;
+    grid-gap: 20px;
+    
+}
+
+.s {
+    justify-self: center;
+    font-size: 130%;
+    font-family: chur;
+    color: black;
+    
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color: dimgrey;
+    grid-gap: 20px;
+
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color: transparent;
+
+
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+   
+}
+
+.a {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 170%;
+    color: white;
+    justify-self: end;
+    align-self: center;
+    font-family: chur;
+    margin-right: 15%;
+    text-decoration: none;
+  transition:color .2s;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 100%;
+  padding: 10%;
+    display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: black;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 15%;
+  display: none;
+}
+ul li ul li { 
+  background:black; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: black;}
+
+
+
+.b {
+    font-size: 170%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-family: chur;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+   transition:color .2s;
+   
+}
+.t {
+      font-size: 70%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-family: chur;
+    align-self: center;
+ margin-bottom: 80%;
+    color: yellow;
+    text-decoration: none;
+   transition:color .2s;
+}
+
+.c {
+    font-size: 300%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+/*    margin-top: 5.5vh;*/
+    font-family: myFirstFont;
+    
+    display: grid;
+    grid-template-rows: auto auto;
+/*    margin-left: 70%;*/
+
+
+}
+
+.d {
+    font-size: 170%;
+    grid-row: 1/2;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-family: chur;
+/*    margin-left: 90%;*/
+    text-decoration: none;
+    transition:color .2s;
+
+}
+
+.e {
+    font-size: 170%;
+    grid-column: 5/6;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: center;
+    font-family: chur;
+    color: white;
+/*    margin-left: 190%;*/
+    text-decoration: none;
+transition:color .2s;
+
+
+}
+
+.f {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 140%;
+    z-index: -1;
+
+
+}
+
+.G {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    width: 60%;
+    justify-self: center;
+
+}
+
+.h {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    justify-self: end;
+    width: 140%;
+    z-index: -1;
+}
+
+.i {
+    grid-row: 1/2;
+    justify-self: center;
+    margin-top: 1.0vh;
+/*    margin-left: 75%;*/
+    width: 50%;
+    align-self: end;
+}
+
+
+
+
+
+.k {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: end;
+    margin-top: 2%;
+    width: 37%;
+    
+
+}
+
+.l {
+
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: start;
+    margin-top: 2%;
+    width: 33%;
+
+}
+
+.m {
+   grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 110%;
+    color: black;
+    border-left: 12px;
+    justify-self: end;
+    align-self: center;
+    margin-right: 33%;
+    text-decoration: none;
+    font-family: myFirstFont;
+    transition:color .2s;
+    
+
+}
+
+.n {
+   grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 110%;
+    color: black;
+    border-left: 12px;
+    justify-self: end;
+    align-self: center;
+    font-family: myFirstFont;
+    margin-right: 20%;
+    text-decoration: none;
+    transition:color .2s;
+}
+
+.o {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    margin-top: 10%;
+    width:  90%;
+
+}
+
+
+
+.story {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    
+    
+    ;
+
+}
+p {
+    font-family: chur;
+    font-size: 170%;
+    color: maroon;
+}
+
+.p {
+    font-size: 150%;
+    font-family: chur;
+    justify-self: center;
+    background-color: aquamarine;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.q {
+     grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    text-align: justify;
+    
+}
+
+.r {
+    grid-column: 1/2;
+    margin-top: 5%;
+    grid-row: 1/2;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
+}
+.twitter {
+    grid-column: 1/2;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    grid-row: 2/3;
+}
+.utube {
+    grid-column: 2/3;
+    width:100%;
+    justify-self: center;
+    align-self: center;
+    grid-row: 2/3;
+}
+
+.insta {
+    grid-column: 3/4;
+    width:60%;
+     justify-self: center;
+    align-self: center;
+    grid-row: 2/3;
+}
+
+.facebook {
+     grid-column: 4/5;
+    width:50%;
+     justify-self: center;
+    align-self: center;
+    grid-row: 2/3;
+    
+    
+}
+
