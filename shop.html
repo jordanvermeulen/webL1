@@ -1,0 +1,182 @@
+<!doctype html>
+
+
+<head>
+     <meta charset="UTF-8">
+    <title>Matai.co.nz/shop</title>
+    <link rel="stylesheet" href="styles.css">
+<!--    <meta http-equiv="refresh" content="5000">-->
+    <script>
+        var showing = false;
+        var para = 0;
+        
+        function show(num) {
+            
+            para = document.getElementById('hide'+num);
+            
+            console.log(para)
+            
+            // show info
+            if(para != null){
+                document.getElementById('hide'+num).style.display = 'block';
+                document.getElementById('hide'+num).id = 'show' + num;
+            } 
+            // hide info
+            if(para == null) {
+                document.getElementById('show'+num).style.display = 'none';
+                document.getElementById('show'+num).id = 'hide' + num;
+            }
+        }
+        
+    </script>
+</head>
+<body>
+<div class="grid-container">
+    <a href="find.html" class="t">find a dealer near you</a>
+    <a href="index.html" title="home page" class="a">home</a>
+
+    <div class="b">
+        <ul>
+            <li>
+                <a href="shop.html" title="Buy here">shop</a>
+                <ul>
+                    <li><a href="#">MOANA FX</a></li>
+                    <li><a href="#">MOTU MK1</a></li>
+                    <li><a href="#">FARAROA MK2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="c">
+
+        <img class="i" alt="matai" src="images/crown.png" title="MATAI KITES">
+        Maitai
+    </div>
+
+    <a href="contact.html" title="Contact Us" class="d">contact</a>
+
+    <a href="about.html" title="The history of Maitai surfing" class="e"> Origins</a>
+
+    <img class="f" src="images/man.png" alt="manta">
+    <img class="h" alt="manta" src="images/man.png">
+
+</div>
+
+<div class="grid-container4" id="1">
+    <img class="shoplogo" src="images/shop%20logo.png" title="featured boards" alt="featured boards">
+    <div class="s">Powered by Nature &#8482;</div>
+
+<!--
+<div class="container" >
+     <img class="shoplogo" src="images/shop%20logo.png" title="featured boards" alt="featured boards">
+    
+    </div>
+-->
+
+    <div class="grid-container2">
+<!--        <img class="shoplogo" src="images/shop%20logo.png" title="featured boards" alt="featured boards">-->
+
+
+
+
+        <ul class="products">
+            <li onclick="show(3)"> 
+                <a title="FARAOA MK2" class="Board1">
+                    <h1>FARAROA MK2</h1>
+                    <p>$120</p>
+                    <img class="board1board" src="images/board%203.png" title="medium-large waves" alt="surfboard">
+
+                </a>
+                <p id='hide3'>FARAROA MK2 is an original board that also impresses the crowd with its looks and agility, recomemded surf conditions: 4ft-10ft.
+                    <br> <br>
+                         *Professional use only*
+                
+                <br>
+                <a href="purchase.html">Purchase here</a></p>
+            </li>
+
+            <li onclick="show(2)">
+                <a title="MOTU MK1" class="Board2">
+                    <h1>MOTU MK1</h1>
+                    <p>$100</p>
+                    <img class="board2board" src="images/board%201.png" title="small-medium waves" alt="surfboard">
+                </a>
+                <p id='hide2'><br><br>MOTU MK1 is a board that is orginal and carves the light surf(0-4ft)
+                    <br> <br>
+                         *Professional use only*
+                <br>
+                <a href="purchase.html">Purchase here</a></p>
+            </li>
+
+            <li onclick="show(1)">
+                <a title="MOANA FX" class="Board3">
+                    <h1>MOANA FX</h1>
+                    <p>$140</p>
+                    <img class="board3board" alt="board3" src="images/product%204.png">
+                </a>
+                <p id='hide1'><br>Moana FX board is a slick, carving board that is recommended for waves from( 5ft to 12ft.)
+                       <br> <br> *Professional use only*
+                <br>
+                <a href="purchase.html">Purchase here</a>
+                </p>
+
+            </li>
+
+
+
+
+
+        </ul>
+    </div>
+
+           
+       
+
+       <div class="grid-container3">
+        
+        
+            <div class="grid-container6">
+
+           <div class="matai"> Matai <strong>&#174;  </strong></div> 
+          
+            
+                <div class="copyright"> &#169;                      Maitai Surfing. 2021<br>
+                All.Rights.Reserved </div>
+
+
+
+            </div>
+            <div class="grid-container5">
+
+                    <img class="twitter"  title="like our Twitter" alt="twitter" src="images/twitter%20logo.png">
+
+
+                        <img class="utube" title="Watch our Videos" alt="youtube" src="images/youtube%20logo.png">
+
+
+
+                        <img class="insta" title="like our Instagram" alt="instagram" src="images/insta%20logo.png">
+
+                    <img class="facebook" title="like our Facebook" alt="facebook" src="images/facebook%20logo.png">
+
+            </div>
+        
+        
+        
+        
+    
+    </div>
+
+    
+    
+    
+    
+  
+        </div>
+    
+    
+</body>
+
+
+       
