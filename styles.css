@@ -1,4 +1,6 @@
-@font-face {
+
+/*Fonts*/
+@font-face {*/
     font-family: myFirstFont;
     src: url(fonts/TRIBAL__.ttf);
 
@@ -12,6 +14,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+/*fonts for entire website(re put in individual class)*/
+
+
+/*Hovers*/
 
 a:hover {
     color: red;
@@ -25,7 +31,6 @@ a:hover {
 }
 .utube:hover {
     
-/*    border-bottom: 3px solid gold;*/
     opacity:100%;
   transition:opacity .5s;
    
@@ -43,7 +48,19 @@ a:hover {
 }
 
 
+.Button:hover {
+    color: yellow;
+    background-color: grey;
+    
+}
 
+
+/*Hover states*/
+
+
+
+
+/*index.html content*/
 
 html {
     background-color: black;
@@ -60,7 +77,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     grid-template-rows: 0.2fr;
-/*    background-color: black;*/
     color: maroon;
     grid-gap: 5px;
     width: 100%;
@@ -97,10 +113,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: black;
-/*    background-color: transparent;*/
-
-
 }
+
 .grid-container5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -178,6 +192,8 @@ div a {
   padding: 10%;
     display:inline-block;
 }
+/**/
+
 ul {
   display: inline;
   margin: 0;
@@ -199,6 +215,7 @@ ul li ul li a {display:block !important;}
 ul li ul li:hover {background: black;
 }
 
+/*content for shop hover on bar*/
 
 
 .b {
@@ -230,12 +247,10 @@ ul li ul li:hover {background: black;
     grid-column: 3/4;
     grid-row: 1/2;
     justify-self: center;
-/*    margin-top: 5.5vh;*/
     font-family: myFirstFont;
     
     display: grid;
     grid-template-rows: auto auto;
-/*    margin-left: 70%;*/
 
 
 }
@@ -247,7 +262,6 @@ ul li ul li:hover {background: black;
     align-self: center;
     color: white;
     font-family: chur;
-/*    margin-left: 90%;*/
     text-decoration: none;
     transition:color .2s;
 
@@ -261,7 +275,6 @@ ul li ul li:hover {background: black;
     align-self: center;
     font-family: chur;
     color: white;
-/*    margin-left: 190%;*/
     text-decoration: none;
 transition:color .2s;
 
@@ -298,7 +311,6 @@ transition:color .2s;
     grid-row: 1/2;
     justify-self: center;
     margin-top: 1.0vh;
-/*    margin-left: 75%;*/
     width: 50%;
     align-self: end;
 }
@@ -505,9 +517,14 @@ grid-column: 2/3;
     font-family: 'Roboto', sans-serif;
 }
 
+/*index.html  styling*/
 
 
-/* shop layout content */
+
+
+
+/*Shop Layout Content*/
+
 
 .shoplogo  {
     width: 10%;
@@ -516,17 +533,7 @@ grid-column: 2/3;
     
 }
 
-/*
 
-.Board1 {
-width:70%;
-  font-family:  myFirstFont;
-}
-
-.Board2 {
-    width: 70%;
-}
-*/
 
 .products {
     display: grid;
@@ -555,33 +562,6 @@ width:70%;
 }
 
 
-/*
-.board2board {
-    width:150%;
-      justify-self: center;
-    align-self: center;
-}
-
-.board1board {
-    width:80%;
-      justify-self: center;
-    align-self: center;
-    
-}
-
-.Board3 {
-    font-family: myFirstFont;
-    
-    
-}
-.board3board {
-width: 85%;
-    justify-self: center;
-    align-self: center;
-
-}
-*/
-
 .products li>p {
     display: none;
 }
@@ -591,6 +571,10 @@ strong {
     text-decoration: none;
     font-size: 20%:
 }
+
+/*shop layout content*/
+
+/*find.html content*/
 
 .Map {
     width: 70%;
@@ -604,12 +588,12 @@ strong {
     color: white;
     margin-left: 20%;
 }
+/*Find.html content*/
 
 
-
-/*fill out form*/
+/*fill out form for purchase.html*/
 .fillout {
-    background-color:black;
+    background-color: black;
     
 }
 .form-check-label {
@@ -645,11 +629,14 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
+
+
 .container {
   border-radius: 5px;
-  background-color: black;
+  background-color: maroon;
   padding: 20px;
 }
+/* purchase.html*/
 
 .Contact2 {
     font-family: 'Roboto', sans-serif;
@@ -724,3 +711,32 @@ html {
     display: block;
   }
 }
+
+
+.card img {
+    width: 100%;
+     border-radius: 20%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Writing {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.wave {
+    width: 50%;
+     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.BG {
+    width: 80%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 20%;
+    margin-left: 10%;
+}
+
+
