@@ -665,7 +665,7 @@ html {
      border-radius: 20%;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
+/*box shadowing */
 .Writing {
     font-family: 'Roboto', sans-serif;
     color: whitesmoke;
@@ -714,12 +714,12 @@ html {
 /*submit.html styling for img
 */
 .BG {
-    width: 80%;
+    width: 40%;
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
     border-radius: 20%;
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 /*Submit.html*/
