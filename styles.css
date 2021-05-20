@@ -1,7 +1,8 @@
 
 /*Fonts*/
-@font-face {*/
-    font-family: myFirstFont;
+
+@font-face { 
+    font-family: Tribal;
     src: url(fonts/TRIBAL__.ttf);
 
 }
@@ -49,9 +50,8 @@ a:hover {
 
 
 .Button:hover {
-    color: yellow;
-    background-color: grey;
-    
+    background-color: #303030;
+    font-size: 102%;
 }
 
 
@@ -64,7 +64,7 @@ a:hover {
 
 html {
     background-color: black;
-
+    font-family: Tribal;
 }
 
 body {
@@ -118,58 +118,11 @@ body {
 .grid-container5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-  
-    
     margin-top: 170px;
     
 }
 
-/*
-.grid-container5 li img {
-    width: 80%;
-    margin: auto;
-    opacity: 80%;
-}
-*/
 
-/*
-.grid-container5 li {
-    border-bottom: 2px solid black;
-}
-*/
-
-/*
-.grid-container5 li:hover {
-    border-bottom: 2px solid gold;
-    opacity: 100%;
-    transition:opacity .5s;
-    margin-top: -8px;
-*/
-/*
-.nav {
-    
-    text-align: center;
-}
-
-.nav li {
-    font-family: chur;
-    display: inline-block;
-    margin-top: 80px;
-}
-
-.nav a{
-        color: whitesmoke;
-        padding: 90px;
-       font-size: 30px;
-       
-    
-}
-
-.current {
-    
-    background-color: 	#282828;
-}
-*/
 
 .a {
     grid-column: 1/2;
@@ -247,7 +200,7 @@ ul li ul li:hover {background: black;
     grid-column: 3/4;
     grid-row: 1/2;
     justify-self: center;
-    font-family: myFirstFont;
+    font-family: Tribal;
     
     display: grid;
     grid-template-rows: auto auto;
@@ -349,7 +302,7 @@ transition:color .2s;
     align-self: center;
     margin-right: 33%;
     text-decoration: none;
-    font-family: myFirstFont;
+    font-family: Tribal;
     transition:color .2s;
     
 
@@ -363,7 +316,7 @@ transition:color .2s;
     border-left: 12px;
     justify-self: end;
     align-self: center;
-    font-family: myFirstFont;
+    font-family: Tribal;
     margin-right: 20%;
     text-decoration: none;
     transition:color .2s;
@@ -375,7 +328,7 @@ transition:color .2s;
     justify-self: center;
     margin-top: 10%;
     width:  90%;
-
+    border-radius: 10%;
 }
 
 
@@ -385,11 +338,11 @@ transition:color .2s;
     grid-column: 2/3;
     grid-row: 1/2;
     justify-self: center;
-
+    font-size: 14px;
 }
 p {
     font-family: chur;
-    font-size: 140%;
+    font-size: 190%;
     color: maroon;
 }
 
@@ -489,7 +442,7 @@ p {
    
 
 .matai {
-    font-family: myFirstFont;
+    font-family: Tribal;
     grid-column: 2/3;
     justify-self: center;
     font-size: 200%;
@@ -545,7 +498,7 @@ grid-column: 2/3;
 }
 
 .products li {
-    font-family: myFirstFont;
+    font-family: Tribal;
     background-color: darkgray;
     text-align: center;
     width: 100%;
@@ -577,7 +530,8 @@ strong {
 /*find.html content*/
 
 .Map {
-    width: 70%;
+   width: 600px;
+    height: 350px; 
     margin-left: 15%;
 }
 
@@ -600,7 +554,7 @@ strong {
     color: aquamarine;
     
 }
-
+/*colors*/
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -623,9 +577,9 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: maroon;
 }
 
 /* Add a background color and some padding around the form */
@@ -633,27 +587,34 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: maroon;
   padding: 20px;
 }
 /* purchase.html*/
 
+
+/*contact.html styling*/
 .Contact2 {
     font-family: 'Roboto', sans-serif;
     
 }
 
+/*general font for all body*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+    
 }
 
 html {
   box-sizing: border-box;
 }
 
+
+/*origins/about.html*/
+
 *, *:before, *:after {
   box-sizing: inherit;
+   
 }
 
 .column {
@@ -680,7 +641,6 @@ html {
 }
 
 .container::after, .row::after {
-  content: "";
   clear: both;
   display: table;
 }
@@ -689,21 +649,8 @@ html {
   color: grey;
 }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
 
-.button:hover {
-  background-color: #555;
-}
+
 
 @media screen and (max-width: 650px) {
   .column {
@@ -714,15 +661,23 @@ html {
 
 
 .card img {
-    width: 100%;
+    width: 90%;
      border-radius: 20%;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Writing {
     font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+.Speech {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: lightblue;
     
 }
+
 
 .wave {
     width: 50%;
@@ -730,6 +685,34 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.h2 {
+    
+  text-align: center;
+}
+
+.Contact {
+    background-color: #303030;
+    color: black;
+    font-family: Tribal;
+    
+}
+
+.IMG1 {
+    margin-top: 55%;
+    
+}
+
+/*adjusting heights of profile pictures*/
+.IMG2 {
+    margin-top: 25%;
+    
+}
+
+/*About/Origins styling*/
+
+
+/*submit.html styling for img
+*/
 .BG {
     width: 80%;
     background-position: center;
@@ -739,4 +722,5 @@ html {
     margin-left: 10%;
 }
 
+/*Submit.html*/
 
